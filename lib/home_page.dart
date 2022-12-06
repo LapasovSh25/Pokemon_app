@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
                                 MaterialPageRoute(
                                     builder: (context) => InfoPage(
                                         data:
-                                            SearchModel.searchedData[index])));
+                                           snapshot.data!.pokemon[index])));
                           },
                           child: Stack(
                             children: [
